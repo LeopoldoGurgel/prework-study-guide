@@ -1,0 +1,32 @@
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    header, footer {
+      background-color: #f1f1f1;
+      padding: 20px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .box {
+      background-color: #fff;
+      width: 100px;
+      height: 100px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
