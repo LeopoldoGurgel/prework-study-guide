@@ -7,8 +7,9 @@ document.getElementById("bowtie-cat").addEventListener("click", function () {
 const catLogo = document.getElementById("bowtie-cat");
 
 
-catLogo.addEventListener("mouseover", () => {catLogo.setAttribute("src", "./assets/evil-bowtie-cat.png")})
-catLogo.addEventListener("mouseleave", () => {catLogo.setAttribute("src", "./assets/bowtie-cat.png")})
+catLogo.addEventListener("mouseover", () => {catLogo.setAttribute("src", "./assets/evil-bowtie-cat.png")});
+catLogo.addEventListener("mouseleave", () => {catLogo.setAttribute("src", "./assets/bowtie-cat.png")});
+catLogo.addEventListener("click", () => {catLogo.setAttribute("src", "./assets/bowtie-cat.png")});
 
 
 let myButton = document.querySelector("button");
